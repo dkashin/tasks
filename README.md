@@ -1,1 +1,1 @@
-# Video engineering and coding test tasks
+# Video streaming and coding test tasks
