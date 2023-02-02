@@ -12,6 +12,7 @@ Your task is to create a script that takes `stream` or `file` as an input and re
 - ABR target stream (1080p, 720p, 480p)
 - Custom I-frames pattern (option: `-idr <int>`)
 - Burn-in local time clock in picture while transcoding
+- Deliver the project via a public GitHub repository
 
 ## Bonus points:
 - Tune encoder settings to get:
