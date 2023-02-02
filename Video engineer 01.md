@@ -17,6 +17,6 @@ Your task is to create a script that takes `stream` or `file` as an input and re
 - Get parallel HLS output stream in the same FFMPEG command line
 - Use signle decoder for all encoders in FFMPEG pipeline
 - Use nvenc/qsv hardware encoding (option: `-encoder <nvenc_h264/qsv_h264/libx264>`)
-- Wait for a stream to start and analyze 60 seconds of target DASH stream to get:
+- Wait for a stream to start and analyze any 60 seconds of target DASH stream to get:
   - GOP/I-frames structure with timecodes (ffprobe or any other tool).
   - VMAF/SSIM/PSNR values
