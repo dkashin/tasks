@@ -7,6 +7,7 @@ Your task is to create a script that takes `stream` or `file` as an input and re
 
 ## Acceptance criteria:
 - Any programming language, whatever libraries are necessary
+- Use FFMPEG framework binary or API
 - Encoder any of `libx264`, `nvenc_h264`, `qsv_h264`
 - ABR target stream (1080p, 720p, 480p)
 - Custom I-frames pattern (option: `-idr <int>`)
