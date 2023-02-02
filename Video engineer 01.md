@@ -14,7 +14,9 @@ Your task is to create a script that takes `stream` or `file` as an input and re
 - Burn-in local time clock in picture while transcoding
 
 ## Bonus points:
-- Tune encoder settings to get minimal VBR bitrate fluctuations and maximum possible picture quality
+- Tune encoder settings to get:
+  - minimal VBR bitrate fluctuations
+  - suggest optimal picture quality/bitrate balance for each stream in asset
 - Get parallel HLS output stream in the same FFMPEG command line
 - Use signle decoder for all encoders in FFMPEG pipeline
 - Use nvenc/qsv hardware encoding (option: `-encoder <nvenc_h264/qsv_h264/libx264>`)
