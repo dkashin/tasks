@@ -3,7 +3,7 @@
 
 Your task is to create a script that takes `stream` or `file` as an input and returns `Low Latency MPEG-DASH` stream.
 
-    $ script -source <url/file> -target master.mpd [options]
+    $ script -source <url/file> -target master.mpd [-idr <int>]
 
 ## Acceptance criteria:
 - Any programming language, whatever libraries are necessary
