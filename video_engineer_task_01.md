@@ -10,7 +10,7 @@ Your task is to create a script that takes `stream` or `file` as an input and re
 - Use FFMPEG binary or FFMPEG framework API
 - Encoder any of `libx264`, `nvenc_h264`, `qsv_h264`
 - ABR target stream (1080p, 720p, 480p)
-- Custom I-frames pattern (option: `-idr <int>`)
+- Custom pattern to set I-frames every X-seconds (option: `-idr <int>`)
 - Burn-in local time clock in picture while transcoding
 - Deliver the project via a public GitHub repository
 
